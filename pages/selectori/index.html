@@ -11,10 +11,18 @@
         color: royalblue;
       }
 
+      .element-cu-fundal-rosu {
+        background: red;
+      }
+
+      .list-item {
+      }
+
       /* Stil combinare */
       .alert {
         background: #efefef;
         border: 3px dashed #ebe3ff;
+        color: black;
         padding: 16px;
       }
 
@@ -27,6 +35,14 @@
       }
 
       .error {
+        color: red;
+      }
+
+      [title="Atribut"] {
+        color: red;
+      }
+
+      [href^="#"] {
         color: red;
       }
     </style>
@@ -44,7 +60,7 @@
           <li>Selectori de pseudo-element (::before, ::after, etc.)</li>
         </ul>
       </section>
-      <section title="Exemplu combinare">
+      <section id="test" title="Atribut">
         <h2>Exemplu de combinare a selectorului clasa</h2>
         <p class="alert success">Reîncărcarea contului a fost finalizată</p>
         <p class="alert warning">Atenție, tarifele se vor schimba</p>

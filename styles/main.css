@@ -1,7 +1,7 @@
 :root {
   --primary-color: #273da4;
   --link-color: #acdeff;
-  --link_hover-color: rgb(248, 249, 250);
+  --link-color_hover: #f8f9fa;
 }
 
 * {
@@ -33,7 +33,8 @@ h1 {
   margin-top: 16px;
 }
 
-.answers-list a {
+.answers-list a,
+.answers-list a:visited {
   color: var(--link-color);
   margin-left: 8px;
   text-decoration: none;
@@ -41,7 +42,7 @@ h1 {
 
 .answers-list a:hover,
 .answers-list a:focus {
-  color: var(--link_hover-color);
+  color: var(--link-color_hover);
   text-decoration: underline;
 }
 
