@@ -1,0 +1,52 @@
+:root {
+  --primary-color: #273da4;
+  --link-color: #acdeff;
+  --link_hover-color: rgb(248, 249, 250);
+}
+
+* {
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+h1 {
+  color: #fefefe;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.container {
+  margin-left: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.answers-list {
+  list-style-type: circle;
+}
+
+.answers-list li + li {
+  margin-top: 16px;
+}
+
+.answers-list a {
+  color: var(--link-color);
+  margin-left: 8px;
+  text-decoration: none;
+}
+
+.answers-list a:hover,
+.answers-list a:focus {
+  color: var(--link_hover-color);
+  text-decoration: underline;
+}
+
+.answers-list a::before {
+  content: "\2192";
+  margin-right: 4px;
+  text-decoration: none;
+}
